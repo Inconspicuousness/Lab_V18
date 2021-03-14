@@ -37,7 +37,7 @@ class VectorCoordinates
     bool operator< (const VectorCoordinates& a);
     bool operator<= (const VectorCoordinates& a);
 
-   friend ostream& operator<< (ostream& out, const VectorCoordinates& vectorcoordinates);
+   friend ostream& operator<< (ostream& out, const VectorCoordinates& v);
 };
 ostream& operator<< (ostream& out, const VectorCoordinates& v)
 {
